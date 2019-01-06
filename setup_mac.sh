@@ -2,7 +2,8 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install git macvim tfenv jq nodenv npm remarshal
+brew update
+brew install git macvim tfenv jq nodenv npm remarshal kops
 cellar=/usr/local/Cellar
 ln -s ${cellar}/macvim/$(ls $cellar/macvim) ${cellar}/macvim/latest
 ln -s ${cellar}/macvim/latest/MacVim.app /Application/
