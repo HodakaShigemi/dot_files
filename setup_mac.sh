@@ -10,12 +10,11 @@ ln -s ${cellar}/macvim/latest/MacVim.app /Application/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 >     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-brew cask install homebrew/cask/pycharm-ce lacaille iterm2 slack
+brew cask install homebrew/cask/pycharm-ce lacaille iterm2 slack google-cloud-sdk
 
 curl https://raw.githubusercontent.com/Arc0re/Iceberg-iTerm2/master/iceberg.itermcolors > ~/Downloads/iceberg.itermcolors
 
 # awscli
-python3 ensurepip
+python3 -m ensurepip
 pip3 install awscli
-
 
