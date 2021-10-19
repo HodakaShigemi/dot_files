@@ -3,6 +3,7 @@ export LSCOLORS=Exfxcxdxbxegedabagacad
 
 
 # add in profile
+# and more
 
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'

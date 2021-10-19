@@ -13,6 +13,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 brew cask install homebrew/cask/pycharm-ce lacaille iterm2 slack google-cloud-sdk
 
 # add code here
+# add more
 
 curl https://raw.githubusercontent.com/Arc0re/Iceberg-iTerm2/master/iceberg.itermcolors > ~/Downloads/iceberg.itermcolors
 
