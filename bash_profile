@@ -1,6 +1,9 @@
 export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad
 
+
+# add in profile
+
 # Tell grep to highlight matches
 export GREP_OPTIONS='--color=auto'
 
