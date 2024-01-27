@@ -23,6 +23,7 @@ Plug 'w0rp/ale'
 Plug 'mattn/sonictemplate-vim'
 Plug 'simeji/winresizer'
 Plug 'hashivim/vim-terraform'
+Plug 'github/copilot.vim'
 
 
 " Initialize plugin system
