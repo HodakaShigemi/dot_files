@@ -3,7 +3,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew update
-brew install git pyenv macvim tfenv jq nodenv npm remarshal kops pyenv-virtualenv rbenv
+brew install git pyenv macvim tfenv jq nodenv npm remarshal kops pyenv-virtualenv rbenv aws-sam-cli
 cellar=/usr/local/Cellar
 ln -s ${cellar}/macvim/$(ls $cellar/macvim) ${cellar}/macvim/latest
 ln -s ${cellar}/macvim/latest/MacVim.app /Application/
